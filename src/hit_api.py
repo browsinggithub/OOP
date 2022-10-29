@@ -1,6 +1,6 @@
 import requests
 
-activities = {
+activities = [
         "education",
         "recreational",
         "social",
@@ -10,7 +10,7 @@ activities = {
         "relaxation",
         "music",
         "busywork",
-    }
+]
 
 class APIs:
     def __init__(self, url):
