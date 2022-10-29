@@ -1,0 +1,11 @@
+This project hits the Bored API
+
+the first thing you need to do after you clone the repository is to create your virtual environment:
+Windows command: 
+python3 -m venv .venv
+.venv\Scripts\activate
+Mac:
+python3 -m venv .venv
+source venv/bin/activate
+
+After you have your virtual env created use a pip install -r requirements.txt
