@@ -34,14 +34,15 @@ def query(subject):
         print(f"{subject.capitalize()} idea: {find_key['activity']}")
 
 
-def suggestion_for_each_activity():
-    for every_activity in activities:
-        query(every_activity)
-
-
 @click.group()
 def cli():
     pass
+
+
+@cli.command(name="all", help="Ask for suggestions on all categories")
+def suggestion_for_each_activity():
+    for every_activity in activities:
+        query(every_activity)
 
 
 @cli.command(name="edu", help="Ask for a random educational topic to learn")
