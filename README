@@ -1,5 +1,11 @@
 This project hits the Bored API
 
+First clone the repo using 
+```bash
+git clone
+```
+
+
 the first thing you need to do after you clone the repository is to create your virtual environment
 Windows command: 
 ```bash 
