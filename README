@@ -12,6 +12,16 @@ python3 -m venv .venv
 source venv/bin/activate
 ```
 
-After you have your virtual env created use a 
+After you have your virtual env created execute the command below to get all the necessary dependencies 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
+Run the script and see how to use the CLI tool
+
+```bash
+python3 .\src\hit_api.py --help
+```
+Example of how to use one of the commands
+```bash
+python3 .\src\hit_api.py busy_work 
+```
